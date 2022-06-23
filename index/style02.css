@@ -1,0 +1,14 @@
+#circle{width:500px;height:500px;background-image: url(naomi01.png);border-radius:50%;} 
+h1{color: white;font-family: Zen_Old_Mincho;font-size: 56pt;}
+h2{color: rgb(185,0,120);font-family: Microsoft yahei;}
+p{color: black;font-family: Microsoft yahei;font-size: 14pt;letter-spacing: 3px;line-height: 40px;}
+
+.open{position: relative;
+}
+.open .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;}

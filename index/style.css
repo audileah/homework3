@@ -1,0 +1,147 @@
+.container01 {
+  display: flex;
+  justify-content: center;
+  width: 100;
+  height: 100vh;
+}
+
+.button02 {
+  background-image: url(flower02.png);
+  background-color: black;
+  width: 149px;
+  height: 146px;
+}
+
+.button02:hover {
+  background-image: url(flower01.png);
+}
+
+.button01:hover {
+  background-image: url(flower01.png);
+}
+
+.v-line {
+  border-left: thick solid white;
+  height: 100%;
+  left: 2%;
+  position: absolute;
+}
+
+.v-line2 {
+  border-left: thick solid white;
+  height: 100%;
+  left: 4%;
+  position: absolute;
+}
+
+.v-line3 {
+  border-left: thick solid white;
+  height: 100%;
+  left: 6%;
+  position: absolute;
+}
+
+.v-line4 {
+  border-left: thick solid white;
+  height: 100%;
+  left: 94%;
+  position: absolute;
+}
+
+.v-line5 {
+  border-left: thick solid white;
+  height: 100%;
+  left: 96%;
+  position: absolute;
+}
+
+.v-line6 {
+  border-left: thick solid white;
+  height: 100%;
+  left: 98%;
+  position: absolute;
+}
+
+.button {
+  position: fixed;
+  width: 218px;
+  height: 419px;
+  margin-left: -140px;
+  margin-top: -160px;
+  left: 50%;
+  top: 50%;
+}
+
+/* 文字水平置中 */
+.text-h-center {
+  text-align: center;
+}
+
+/* 文字垂直置中 */
+.text-v-center {
+  vertical-align: top;
+}
+
+.text-v-center:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.text-v-center p {
+  display: inline-block;
+}
+
+#preloader {
+  /*大概也弄不到的色塊覆蓋*/
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  background-color: #000;
+  z-index: 9999;
+}
+
+.frame {
+  /*圖片縮放02*/
+  height: 300px;
+  /*can be anything*/
+  width: 300px;
+  /*can be anything*/
+  position: relative;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.frame02 {
+  /*圖片縮放02*/
+  height: 700px;
+  /*can be anything*/
+  width: 1080px;
+  /*can be anything*/
+  position: relative;
+}
+
+.row01 {
+  justify-content: center;
+  width: 100;
+  height: 10vh;
+}
+
+.fontcolor {
+  font-style: color：#5ba69aff;
+}

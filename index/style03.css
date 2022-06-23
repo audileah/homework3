@@ -1,0 +1,67 @@
+.v-line {
+    border-left: thick solid white;
+    height: 100%;
+    left: 2%;
+    position: absolute;
+  }
+  
+  .v-line2 {
+    border-left: thick solid white;
+    height: 100%;
+    left: 4%;
+    position: absolute;
+  }
+  
+  .v-line3 {
+    border-left: thick solid white;
+    height: 100%;
+    left: 6%;
+    position: absolute;
+  }
+  
+  .v-line4 {
+    border-left: thick solid white;
+    height: 100%;
+    left: 94%;
+    position: absolute;
+  }
+  
+  .v-line5 {
+    border-left: thick solid white;
+    height: 100%;
+    left: 96%;
+    position: absolute;
+  }
+  
+  .v-line6 {
+    border-left: thick solid white;
+    height: 100%;
+    left: 98%;
+    position: absolute;
+  }
+  .frame {
+    /*圖片縮放02*/
+    height: 800px;
+    /*can be anything*/
+    width: 900px;
+    /*can be anything*/
+    position: relative;
+  }
+  
+  img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+p{color: #5ba69aff;font-family: Microsoft yahei;}
+  #circle{width:20px;height:20px;background-color: #c4ac32;border-radius:50%;} 
+  h1{color: white;font-family: Microsoft yahei;font-size: 28pt;}
+  h2{color: white;font-family: Microsoft yahei;font-size: 12pt;}
